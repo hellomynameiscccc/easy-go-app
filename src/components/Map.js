@@ -122,8 +122,8 @@ function Map() {
             src={mapImage}
             alt="지도"
             style={{
-              width: "70%",
-              height: "70%",
+              width: "60%",
+              height: "60%",
               objectFit: "cover",
             }}
           />
