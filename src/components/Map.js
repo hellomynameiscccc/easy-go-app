@@ -83,7 +83,8 @@ function Map() {
           onClick={() => setView("route")}
           style={{
             padding: "10px 20px",
-            //marginRight: "10px",
+            marginLeft : "0px",
+            marginRight: "50px",
             backgroundColor: "#FFD700",
             color: "#333",
             border: "none",
