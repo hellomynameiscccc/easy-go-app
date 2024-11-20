@@ -122,8 +122,8 @@ function Map() {
             src={mapImage}
             alt="지도"
             style={{
-              width: "60%",
-              height: "60%",
+              width: "80%",
+              height: "80%",
               objectFit: "cover",
             }}
           />
@@ -133,8 +133,8 @@ function Map() {
               onClick={() => handlePointClick(point.user)}
               style={{
                 position: "absolute",
-                left: `${(point.x / mapWidth) * 50+15}%`,  // 비율을 기반으로 위치 조정
-                top: `${(point.y / mapHeight) * 50+15}%`,  // 비율을 기반으로 위치 조정
+                left: `${(point.x / mapWidth) * 55+15}%`,  // 비율을 기반으로 위치 조정
+                top: `${(point.y / mapHeight) * 55+10}%`,  // 비율을 기반으로 위치 조정
                 width: "8px",  // 점 크기 수정
                 height: "8px",  // 점 크기 수정
                 backgroundColor: "red",
