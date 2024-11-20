@@ -83,7 +83,7 @@ function Map() {
           onClick={() => setView("route")}
           style={{
             padding: "10px 20px",
-            marginRight: "10px",
+            //marginRight: "10px",
             backgroundColor: "#FFD700",
             color: "#333",
             border: "none",
@@ -122,8 +122,8 @@ function Map() {
             src={mapImage}
             alt="지도"
             style={{
-              width: "80%",
-              height: "80%",
+              width: "100%",
+              height: "100%",
               objectFit: "cover",
             }}
           />
