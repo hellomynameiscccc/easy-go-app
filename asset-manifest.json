@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/easy-go-app/static/css/main.aa238a14.chunk.css",
+    "main.js": "/easy-go-app/static/js/main.39ea1820.chunk.js",
+    "main.js.map": "/easy-go-app/static/js/main.39ea1820.chunk.js.map",
+    "runtime~main.js": "/easy-go-app/static/js/runtime~main.19d75767.js",
+    "runtime~main.js.map": "/easy-go-app/static/js/runtime~main.19d75767.js.map",
+    "static/js/2.7a39f1ee.chunk.js": "/easy-go-app/static/js/2.7a39f1ee.chunk.js",
+    "static/js/2.7a39f1ee.chunk.js.map": "/easy-go-app/static/js/2.7a39f1ee.chunk.js.map",
+    "static/js/3.c60c86f6.chunk.js": "/easy-go-app/static/js/3.c60c86f6.chunk.js",
+    "static/js/3.c60c86f6.chunk.js.map": "/easy-go-app/static/js/3.c60c86f6.chunk.js.map",
+    "index.html": "/easy-go-app/index.html",
+    "precache-manifest.d08cdeb2c3ca28bbbd5aab7cd75fd7e1.js": "/easy-go-app/precache-manifest.d08cdeb2c3ca28bbbd5aab7cd75fd7e1.js",
+    "service-worker.js": "/easy-go-app/service-worker.js",
+    "static/css/main.aa238a14.chunk.css.map": "/easy-go-app/static/css/main.aa238a14.chunk.css.map",
+    "static/media/image.png": "/easy-go-app/static/media/image.9f18b7c2.png",
+    "static/media/main.png": "/easy-go-app/static/media/main.e8ca913c.png",
+    "static/media/route1.png": "/easy-go-app/static/media/route1.7499dc06.png",
+    "static/media/route2.png": "/easy-go-app/static/media/route2.eb3c9807.png",
+    "static/media/route3.png": "/easy-go-app/static/media/route3.3b542ee4.png",
+    "static/media/route4.png": "/easy-go-app/static/media/route4.2bd401c0.png",
+    "static/media/route5.png": "/easy-go-app/static/media/route5.01769c7c.png",
+    "static/media/traffic1.png": "/easy-go-app/static/media/traffic1.1285bbcc.png",
+    "static/media/traffic2.png": "/easy-go-app/static/media/traffic2.a3d51a1b.png",
+    "static/media/traffic3.png": "/easy-go-app/static/media/traffic3.5c4f411b.png",
+    "static/media/traffic4.png": "/easy-go-app/static/media/traffic4.c07f5a4f.png",
+    "static/media/traffic5.png": "/easy-go-app/static/media/traffic5.04f9318d.png"
+  }
+}
