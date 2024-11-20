@@ -1,0 +1,65 @@
+/* 앱 전체 배경 및 정렬 */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 네비게이션 바 스타일 */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0078FF;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #0056b3;
+}
+
+/* 라우터 페이지 영역 */
+.app > div {
+  margin-top: 60px; /* 네비게이션 바 높이만큼 여백 추가 */
+  padding: 20px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+
+  .app > div {
+    margin-top: 80px; /* 모바일에서 네비게이션 여백 추가 */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar a {
+    font-size: 0.8em;
+  }
+}
