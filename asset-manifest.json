@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easy-go-app/static/css/main.320841e3.chunk.css",
+    "main.css": "/easy-go-app/static/css/main.125f4d1b.chunk.css",
     "main.js": "/easy-go-app/static/js/main.39ea1820.chunk.js",
     "main.js.map": "/easy-go-app/static/js/main.39ea1820.chunk.js.map",
     "runtime~main.js": "/easy-go-app/static/js/runtime~main.19d75767.js",
@@ -10,9 +10,9 @@
     "static/js/3.c60c86f6.chunk.js": "/easy-go-app/static/js/3.c60c86f6.chunk.js",
     "static/js/3.c60c86f6.chunk.js.map": "/easy-go-app/static/js/3.c60c86f6.chunk.js.map",
     "index.html": "/easy-go-app/index.html",
-    "precache-manifest.796a0bef863940bed0ad40fa26ef5ea6.js": "/easy-go-app/precache-manifest.796a0bef863940bed0ad40fa26ef5ea6.js",
+    "precache-manifest.5d629b53bb8124b14f45c3d23a2039ba.js": "/easy-go-app/precache-manifest.5d629b53bb8124b14f45c3d23a2039ba.js",
     "service-worker.js": "/easy-go-app/service-worker.js",
-    "static/css/main.320841e3.chunk.css.map": "/easy-go-app/static/css/main.320841e3.chunk.css.map",
+    "static/css/main.125f4d1b.chunk.css.map": "/easy-go-app/static/css/main.125f4d1b.chunk.css.map",
     "static/media/image.png": "/easy-go-app/static/media/image.9f18b7c2.png",
     "static/media/main.png": "/easy-go-app/static/media/main.e8ca913c.png",
     "static/media/route1.png": "/easy-go-app/static/media/route1.7499dc06.png",
