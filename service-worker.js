@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/easy-go-app/precache-manifest.60cc254836db1bf135be642bf098823f.js"
+  "/easy-go-app/precache-manifest.1ef1aee323ced9748237c105fc9fb073.js"
 );
 
 self.addEventListener('message', (event) => {
