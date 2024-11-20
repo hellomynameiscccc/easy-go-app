@@ -36,10 +36,13 @@ function Chat() {
       <div
         style={{
           width: "400px",
+          maxWidth: "100%", /* 모바일에서 화면에 맞게 확장 */
           border: "1px solid #ddd",
           borderRadius: "10px",
           overflow: "hidden",
           backgroundColor: "#f5f5f5",
+          display: "flex",
+          flexDirection: "column", /* 세로로 정렬 */
         }}
       >
         <header
@@ -53,10 +56,11 @@ function Chat() {
         >
           채팅방
         </header>
+        
         <div
           style={{
             padding: "10px",
-            height: "300px",
+            flex: 1, /* 남은 공간을 채움 */
             overflowY: "auto",
             display: "flex",
             flexDirection: "column",
@@ -91,6 +95,7 @@ function Chat() {
             </div>
           ))}
         </div>
+
         <footer
           style={{
             display: "flex",
