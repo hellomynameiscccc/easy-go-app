@@ -27,13 +27,28 @@ function Map() {
       .padStart(2, "0")}`;
   };
 
-  const points = Array.from({ length: 10 }, (_, index) => ({
-    id: index + 1,
-    x: Math.floor(Math.random() * 700) + 50,
-    y: Math.floor(Math.random() * 500) + 50,
-    user: `직원${index + 1}`,
-    time: generateRandomTime(),
-  }));
+  // 지도 이미지 크기에 맞게 점을 조정
+  const mapWidth = 400;  // 지도 이미지의 실제 너비 (픽셀로 설정)
+  const mapHeight = 300; // 지도 이미지의 실제 높이 (픽셀로 설정)
+
+  const points = Array.from({ length: 10 }, (_, index) => {
+    // 점의 위치가 지도 안에 있도록 랜덤으로 생성
+    const x = Math.floor(Math.random() * mapWidth);
+    const y = Math.floor(Math.random() * mapHeight);
+
+    // 특정 영역에서 점이 안 찍히도록 제외 (두 번째 사진 영역)
+    if (x > 150 && x < 300 && y > 200 && y < 300) {
+      return null; // 특정 영역에 점 생성하지 않음
+    }
+
+    return {
+      id: index + 1,
+      x: x, 
+      y: y,
+      user: `직원${index + 1}`,
+      time: generateRandomTime(),
+    };
+  }).filter(point => point !== null); // null 값 필터링
 
   const randomRouteImage = () =>
     routeImages[Math.floor(Math.random() * routeImages.length)];
@@ -107,8 +122,8 @@ function Map() {
             src={mapImage}
             alt="지도"
             style={{
-              width: "100%",
-              height: "100%",
+              width: "70%",
+              height: "70%",
               objectFit: "cover",
             }}
           />
@@ -118,10 +133,10 @@ function Map() {
               onClick={() => handlePointClick(point.user)}
               style={{
                 position: "absolute",
-                left: `${point.x}px`,
-                top: `${point.y}px`,
-                width: "10px",
-                height: "10px",
+                left: `${(point.x / mapWidth) * 50+15}%`,  // 비율을 기반으로 위치 조정
+                top: `${(point.y / mapHeight) * 50+15}%`,  // 비율을 기반으로 위치 조정
+                width: "8px",  // 점 크기 수정
+                height: "8px",  // 점 크기 수정
                 backgroundColor: "red",
                 borderRadius: "50%",
                 cursor: "pointer",
@@ -155,8 +170,8 @@ function Map() {
             src={randomRouteImage()}
             alt="출근 경로 추천"
             style={{
-              width: "800px",
-              height: "600px",
+              width: "400px",
+              height: "300px",
               objectFit: "cover",
               margin: "0 auto",
               display: "block",
@@ -172,8 +187,8 @@ function Map() {
             src={randomTrafficImage()}
             alt="현재 도로 현황"
             style={{
-              width: "800px",
-              height: "600px",
+              width: "400px",
+              height: "300px",
               objectFit: "cover",
               margin: "0 auto",
               display: "block",
