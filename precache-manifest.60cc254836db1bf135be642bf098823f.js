@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e96a6f5c6c7483649dcdf7fdab2a8dc",
+    "revision": "cf3eefe74600a1a846c2d61237615d09",
     "url": "/easy-go-app/index.html"
   },
   {
-    "revision": "1f7ef08f25dea45a5de5",
+    "revision": "0ff54044fb1bda003dbe",
     "url": "/easy-go-app/static/css/main.125f4d1b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easy-go-app/static/js/3.c60c86f6.chunk.js"
   },
   {
-    "revision": "1f7ef08f25dea45a5de5",
-    "url": "/easy-go-app/static/js/main.e0e602f4.chunk.js"
+    "revision": "0ff54044fb1bda003dbe",
+    "url": "/easy-go-app/static/js/main.109577fb.chunk.js"
   },
   {
     "revision": "dfe03428bc54c2f60ddb",
