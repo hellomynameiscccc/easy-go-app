@@ -58,6 +58,10 @@
     margin-top: 100px; /* 모바일에서 네비게이션 바 여백 추가 */
     padding: 15px; /* 패딩을 줄여서 화면 최적화 */
   }
+
+  .map-container {
+    height: 50vh; /* 지도 크기를 반응형으로 조정 */
+  }
 }
 
 /* 반응형 디자인: 화면 크기가 480px 이하일 때 */
@@ -65,8 +69,12 @@
   .navbar a {
     font-size: 0.9em; /* 더 작은 화면에서는 글씨 크기 줄임 */
   }
-  
+
   .app > div {
     padding: 10px; /* 작은 화면에서는 패딩을 더 줄임 */
+  }
+
+  .map-container {
+    height: 40vh; /* 더 작은 화면에서는 지도 크기 축소 */
   }
 }
