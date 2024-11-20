@@ -12,10 +12,10 @@
 /* 네비게이션 바 스타일 */
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* 좌우 균등 배치 */
   align-items: center;
   background-color: #ffffff;
-  padding: 10px 15px;
+  padding: 15px 20px; /* 모바일에서 여백을 더 넓게 */
   border-bottom: 1px solid #ddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -27,7 +27,7 @@
 .navbar a {
   text-decoration: none;
   color: #0078FF;
-  font-size: 1em;
+  font-size: 1.1em; /* 기본 글씨 크기 조정 */
   font-weight: bold;
 }
 
@@ -37,29 +37,36 @@
 
 /* 라우터 페이지 영역 */
 .app > div {
-  margin-top: 60px; /* 네비게이션 바 높이만큼 여백 추가 */
+  margin-top: 80px; /* 네비게이션 바가 고정되므로 여백을 충분히 추가 */
   padding: 20px;
+  overflow-x: hidden;
 }
 
-/* 반응형 디자인 */
+/* 반응형 디자인: 화면 크기가 768px 이하일 때 */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    padding: 10px;
+    padding: 15px 10px; /* 네비게이션 바 여백 조정 */
   }
 
   .navbar a {
-    font-size: 0.9em;
-    margin: 5px 0;
+    font-size: 1em; /* 모바일 화면에서 글자 크기 줄임 */
+    margin: 8px 0; /* 네비게이션 항목들 간의 여백 조정 */
   }
 
   .app > div {
-    margin-top: 80px; /* 모바일에서 네비게이션 여백 추가 */
+    margin-top: 100px; /* 모바일에서 네비게이션 바 여백 추가 */
+    padding: 15px; /* 패딩을 줄여서 화면 최적화 */
   }
 }
 
+/* 반응형 디자인: 화면 크기가 480px 이하일 때 */
 @media (max-width: 480px) {
   .navbar a {
-    font-size: 0.8em;
+    font-size: 0.9em; /* 더 작은 화면에서는 글씨 크기 줄임 */
+  }
+  
+  .app > div {
+    padding: 10px; /* 작은 화면에서는 패딩을 더 줄임 */
   }
 }
