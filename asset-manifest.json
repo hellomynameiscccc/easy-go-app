@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/easy-go-app/static/css/main.125f4d1b.chunk.css",
-    "main.js": "/easy-go-app/static/js/main.bf23ab58.chunk.js",
-    "main.js.map": "/easy-go-app/static/js/main.bf23ab58.chunk.js.map",
+    "main.js": "/easy-go-app/static/js/main.e0e602f4.chunk.js",
+    "main.js.map": "/easy-go-app/static/js/main.e0e602f4.chunk.js.map",
     "runtime~main.js": "/easy-go-app/static/js/runtime~main.19d75767.js",
     "runtime~main.js.map": "/easy-go-app/static/js/runtime~main.19d75767.js.map",
     "static/js/2.7a39f1ee.chunk.js": "/easy-go-app/static/js/2.7a39f1ee.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c60c86f6.chunk.js": "/easy-go-app/static/js/3.c60c86f6.chunk.js",
     "static/js/3.c60c86f6.chunk.js.map": "/easy-go-app/static/js/3.c60c86f6.chunk.js.map",
     "index.html": "/easy-go-app/index.html",
-    "precache-manifest.1d5c9b7dd6dbf93742f44d7a52874cc7.js": "/easy-go-app/precache-manifest.1d5c9b7dd6dbf93742f44d7a52874cc7.js",
+    "precache-manifest.c77c5834be90f45030e45ec7b402eb07.js": "/easy-go-app/precache-manifest.c77c5834be90f45030e45ec7b402eb07.js",
     "service-worker.js": "/easy-go-app/service-worker.js",
     "static/css/main.125f4d1b.chunk.css.map": "/easy-go-app/static/css/main.125f4d1b.chunk.css.map",
     "static/media/image.png": "/easy-go-app/static/media/image.9f18b7c2.png",
